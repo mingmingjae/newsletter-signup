@@ -65,7 +65,7 @@ app.post("/", (req, res) => {
 
 //failure
 
-app.post(failure, (req, res) => {
+app.post("/failure", (req, res) => {
   res.redirect("/");
 });
 
